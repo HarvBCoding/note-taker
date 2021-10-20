@@ -1,6 +1,6 @@
 const path = require('path');
 const express = require('express');
-const savedNotes = require('./Develop/db/db.json');
+let savedNotes = require('./Develop/db/db.json');
 const fs = require('fs');
 
 const PORT = process.env.PORT || 3001;
@@ -33,17 +33,14 @@ app.get('/api/notes', (req, res) => {
     res.json(savedNotes);
 });
 
-app.delete('/api/notes:id', (req, res) => {
+app.delete('/api/notes/:id', (req, res) => {
     const { id } = req.params;
 
-    const newSavedNotes = savedNotes.filter(note => {
-        if (note.id !== id) {
-            return note;
-        }
-        return newSavedNotes;
+    savedNotes = savedNotes.filter(note => {
+        return note.id !== id;
     });
 
-    fs.writeFileSync("./Develop/db/db.json", JSON.stringify(newSavedNotes));
+    fs.writeFileSync("./Develop/db/db.json", JSON.stringify(savedNotes));
 
     return res.send();
 });
