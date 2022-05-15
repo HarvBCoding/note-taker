@@ -16,23 +16,19 @@
   
 
   ## Installation Instructions
-  No installation required navigate to [harvbnotetaker.heroku.com](https://harvbnotetaker.herokuapp.com/)
+  Navigate to [harvbnotetaker.heroku.com](https://harvbnotetaker.herokuapp.com/)
 
   ## Usage
   Click the "Get Started" button on the homepage and start jotting down your thoughts.
-
-  
-  ## Contributing
-  I appreciate your interest in improving this project, however I am not accepting contributions at this time.
-  
-
-  
+ 
   ## Tests
- The following screenshots demonstrate functionality.
+  The following screenshots demonstrate functionality.
   ![Homepage](./READMEImages/HomepageNoteTaker.png)
   ![NotesPage](./READMEImages/NotesPageNoteTaker.png)
   ![APIPage](./READMEImages/APIPageNoteTaker.png)
 
+  ## Technologies
+  JavaScript, HTML, CSS, Node, Express
 
   ## Questions
   If you have any questions or need to report bugs please reach out to me at [HarvBCoding](https://www.github.com/HarvBCoding) or harvey.breania@gmail.com
