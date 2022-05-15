@@ -8,8 +8,7 @@
   ## Table of Contents
   * [Installation](#installation-instructions)
   * [Usage](#usage)
-  * [Contributions](#contributions)
-  * [Tests](#tests)
+  * [Technologies](#technologies)
   * [Questions](#questions)
   
   
@@ -21,8 +20,6 @@
   ## Usage
   Click the "Get Started" button on the homepage and start jotting down your thoughts.
  
-  ## Tests
-  The following screenshots demonstrate functionality.
   ![Homepage](./READMEImages/HomepageNoteTaker.png)
   ![NotesPage](./READMEImages/NotesPageNoteTaker.png)
   ![APIPage](./READMEImages/APIPageNoteTaker.png)
